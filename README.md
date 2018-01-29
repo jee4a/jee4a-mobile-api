@@ -19,6 +19,7 @@ java -jar target/jee4a-mobile-api-0.0.1-SNAPSHOT.jar<br>
 
 4、<br>
 访问：<br>
-http://localhost:8080/userinfo/1<br>
+负载均衡：  http://localhost:8080/userinfo/1<br>
+断熔器：http://localhost:8080/userinfo-1/1<br>
 
 
