@@ -5,7 +5,7 @@ springcloud 客户端负载均衡之 ribbon<br>
 1、<br>
 前提：<br>
 需启动服务注册中心：jee4a-eureka-server <br>
-启动两个user-service实例: jee4a-springboot-user <br>
+启动两个user-service实例: jee4a-user-service <br>
 
 2、<br>
 打包：<br>
