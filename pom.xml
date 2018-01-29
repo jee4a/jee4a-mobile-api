@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jee4a</groupId>
-	<artifactId>jee4a-ribbon-consumer</artifactId>
+	<artifactId>jee4a-mobile-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jee4a-ribbon-consumer</name>
-	<description>jee4a-ribbon-consumer</description>
+	<name>jee4a-mobile-api</name>
+	<description>jee4a-mobile-api</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -34,6 +34,11 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
 
 		<dependency>

@@ -16,17 +16,16 @@ public class CommonProperties {
 	@Value("${spring.application.name}")
 	private String appName ;
 	
-	@Value("${user.service.query.by.id}")
-	private String queryById ;
+	@Value("${user.service.url}")
+	private String userServiceUrl ;
 	
 	
 	 /**
-	 * @return the queryById
+	 * @return the userServiceUrl
 	 */
-	public String getQueryById() {
-		return queryById;
+	public String getUserServiceUrl() {
+		return userServiceUrl;
 	}
-	
 	/**
 	 * @return the appName
 	 */
