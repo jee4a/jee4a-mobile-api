@@ -1,6 +1,6 @@
-# jee4a-ribbon-consumer
+# jee4a-mobile-api
 
-springcloud 客户端负载均衡之 ribbon<br>
+springcloud 客户端负载均衡之 ribbon，hystrix<br>
 
 1、<br>
 前提：<br>
@@ -9,13 +9,13 @@ springcloud 客户端负载均衡之 ribbon<br>
 
 2、<br>
 打包：<br>
-cd jee4a-ribbon-consumer<br>
+cd jee4a-mobile-api<br>
 mvn clean install -D maven.test.skip=true<br>
 
 
 3、<br>
 启动：<br>
-java -jar target/jee4a-ribbon-consumer-0.0.1-SNAPSHOT.jar<br>
+java -jar target/jee4a-mobile-api-0.0.1-SNAPSHOT.jar<br>
 
 4、<br>
 访问：<br>
