@@ -1,6 +1,6 @@
 # jee4a-mobile-api
 
-springcloud 客户端负载均衡之 ribbon，hystrix<br>
+springcloud 客户端负载均衡之 ribbon，断熔器 之 hystrix<br>
 
 1、<br>
 前提：<br>
